@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <ul>
+    <% for(var i=0; i < data.length;i++){ %>
+    <li>
+      <div>
+        <img src="/images/<%=data[i].name%>.png" style="width:30px;height:30px;">
+        <%=data[i].brand%>
+        <%=data[i].name%>
+        <%=data[i].price%>
+      </div>
+    </li>
+    <%};%>
+  </ul>
+</body>
+
+</html>
