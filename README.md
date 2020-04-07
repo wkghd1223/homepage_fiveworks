@@ -1,2 +1,7 @@
 # homepage_fiveworks
-파이브웍스 홈페이지
+
+|     lang    | node.js |
+|:-----------:|:-------:|
+|  frame work | express |
+| view engine |   ejs   |
+|   database  |  mySQL  |
