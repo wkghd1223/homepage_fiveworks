@@ -14,7 +14,15 @@ app.use('/search', searchRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
-  next(createError(404));
+  res.render('404error',{
+    title: '5works',
+    tel: '02 3661 0813',
+    fax: '02 3664 0813',
+    email: 'kst@5works.co.kr',
+    address: "413~414ho, 76, Magokjungang-ro, Gangseo-gu, Seoul, Republic of Korea  76",
+
+  })
+  // next(createError(404));
 });
 
 // error handler
